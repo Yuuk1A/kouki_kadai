@@ -14,3 +14,5 @@ function slidesw(){if(document.getElementById){document.slide.elements[0].disabl
                     if(cnt<=3){var timer1=setTimeout("slidesw()",5000);}
                     else{cnt=0;
                         document.slide.elements[0].disabled=false;clearTimeout(timer1);}}}
+
+function imgchange5(){document.getElementById('sd').src = './image/hanayome.jpg';}
