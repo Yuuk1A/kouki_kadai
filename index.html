@@ -17,14 +17,17 @@
 <h1><p class="sample3">情報学特講Ⅱ 期末プロジェクト　ZM18390　新井　祐輝</p></h1>
 <p class="sample2"></p>
 <h2>あいさつ</h2>
-<input type="button" value="１" onclick="sayhello61();">
-<input type="button" value="２" onclick="kontiwa61();">
-<input type="button" value="３" onclick="youkoso61();">
-<p id="who61">番号順に押してみよう！</p>
-<p class="sample2-1"></p>
-<h1>おすすめの漫画</h1>
-<img scr='./image/hanayome.jpg' id="sd" width="400" height="500" alt="">
+<form name="timer"> 
+<input type="button" value="ここをクリック１" onclick="startfnc()">
 <br>
-<form name="slide">
-    <input type="button" value="紹介" onclick="slidesw()"></form>
+<input type="text" name="moji" size="30" value=""></form>
+<form> <input type="button" value="ここをクリック２" onclick="setTimeout('mes()',3000)"> </form>
+<p class="sample2-1"></p>
+<h1>個人的におススメしたい漫画４選！！</h1>
+        <input type="button" value="その１" onclick="imgchange1();alert('おすすめその１！【五等分の花嫁】！')">
+        <input type="button" value="その２" onclick="imgchange2();alert('おすすめその２！【かぐや様は告らせたい～天才たちの恋愛頭脳戦～】！')">
+        <img src ="image/maruhi.jpg" id="sd" width="200" height="300">     
+        <input type="button" value="その３" onclick="imgchange3();alert('おすすめその３！【かわいいだけじゃない式守さん】！')">  
+        <input type="button" value="その４" onclick="imgchange4();alert('おすすめその４！【ガヴリールドロップアウト】！')">                       
 <p class="sample2-2"></p>
+<h1></h1>
