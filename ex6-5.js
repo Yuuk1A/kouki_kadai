@@ -9,8 +9,7 @@ image[3]=new Image();
 image[3].scr="img/4.png";
 
 var cnt=0;
-
-    function slidesw(){if(document.getElementById){document.slide.elements[0].disabled=true;
+function slidesw(){if(document.getElementById){document.slide.elements[0].disabled=true;
                     document.getElementById("sd").scr=image[cnt].scr;cnt++;
                     if(cnt<=3){var timer1=setTimeout("slidesw()",5000);}
                     else{cnt=0;
