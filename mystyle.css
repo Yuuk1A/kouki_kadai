@@ -1,14 +1,16 @@
-h1 { color:     rgb(68, 221, 241); }
-h2 { color:     rgb(60, 10, 241); }
+h1 { color:     rgb(0, 211, 176);}
+h2 { color:     rgb(59, 9, 241); }
 h3 { color:     rgb(60, 10, 241); } 
-th, td { border: dashed thick black; }
+h4 { color:     rgb(0, 0, 0); } 
+h5 { color:     rgb(255, 255, 255); } 
+th, td { border: none black; }
 th.important { color: red; }
 p.sample1 {border: double 10px #0000ff;}
 p.sample2 {border: inset 10px #ff0000;}
 p.sample2-1 {border: inset 10px hsl(29, 100%, 51%);}
 p.sample2-2 {border: inset 10px #ffee00;}
-p.sample2-3 {border: inset 10px #ff0000;}
-p.sample23-4 {border: inset 10px #ff0000;}
+p.sample2-3 {border: inset 10px #00ff37;}
+p.sample2-4 {border: inset 10px #ff0000;}
 p.sample3 {margin: 30px 30px;padding: 10px;border:
 medium solid #ff00ff;}
 p.sample4 {border: none;}
